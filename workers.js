@@ -7,13 +7,16 @@ const proxy = httpProxy.createProxyServer({
 });
 
 const routes = {
-    "/vps1/vless-ws": "http://79.133.42.185:10001",
-    "/vps1/vmess-ws": "http://79.133.42.185:10002",
-    "/vps1/trojan-ws": "http://79.133.42.185:10003",
+    "/vps1/vless-ws": "http://162.248.102.10:10001",
+    "/vps1/vless-ws2": "http://162.248.102.10:10002",
+    "/vps1/vless-ws3": "http://162.248.102.10:10003",
 
     "/vps2/vless-ws": "http://81.17.99.235:10001",
-    "/vps2/vmess-ws": "http://81.17.99.235:10002",
-    "/vps2/trojan-ws": "http://81.17.99.235:10003"
+    "/vps2/@labokingfreesurf": "http://81.17.99.235:10002",
+    "/vps2/@labokingfreesurf-1": "http://81.17.99.235:10003", 
+    "/vps2/@labokingfreesurf-2": "http://81.17.99.235:10004",
+    "/vps2/@labokingfreesurf-3": "http://81.17.99.235:10005",
+    "/vps2/@labokingfreesurf-4": "http://81.17.99.235:10006"
 };
 
 function getTarget(url) {
