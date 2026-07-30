@@ -14,9 +14,7 @@ const routes = {
     "/vps2/vless-ws": "http://81.17.99.235:10001",
     "/vps2/@labokingfreesurf": "http://81.17.99.235:10002",
     "/vps2/@labokingfreesurf-1": "http://81.17.99.235:10003", 
-    "/vps2/@labokingfreesurf-2": "http://81.17.99.235:10004",
-    "/vps2/@labokingfreesurf-3": "http://81.17.99.235:10005",
-    "/vps2/@labokingfreesurf-4": "http://81.17.99.235:10006"
+    "/vps2/@labokingfreesurf-2": "http://81.17.99.235:10004"
 };
 
 function getTarget(url) {
