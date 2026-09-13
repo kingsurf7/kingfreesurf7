@@ -7,9 +7,9 @@ const proxy = httpProxy.createProxyServer({
 });
 
 const routes = {
-    "/vps1/vless-ws": "http://162.248.100.216:10001",
-    "/vps1/vless-ws2": "http://162.248.100.216:10002",
-    "/vps1/vless-ws3": "http://162.248.100.216:10003",
+    "/vps1/vless-ws": "http://169.58.232.36:10001",
+    "/vps1/vless-ws2": "http://169.58.232.36:10002",
+    "/vps1/vless-ws3": "http://169.58.232.36:10003",
 
     "/vps2/vless-ws": "http://81.17.99.235:10001",
     "/vps2/@labokingfreesurf": "http://81.17.99.235:10002",
